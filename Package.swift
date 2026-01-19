@@ -10,7 +10,7 @@ let package = Package(
     .library(name: "UnityMediationSDK", targets: ["LPSPM"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/ironsource-mobile/Unity-Ad-Quality-Swift-Package", "9.0.2"..<"9.1.0")
+    .package(url: "https://github.com/ironsource-mobile/Unity-Ad-Quality-Swift-Package", "9.2.1"..<"9.3.0")
   ],
   targets: [
     .target(
@@ -43,8 +43,8 @@ let package = Package(
       ]),
     .binaryTarget(
       name: "IronSourceSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-sdk/master/9.2.0/IronSource9.2.0.zip",
-      checksum: "d61a524cb6e304dea88509765a2fe01e0353b9cac935f39c6e6535971667d9d7"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-sdk/master/9.3.0/IronSource9.3.0.zip",
+      checksum: "75fae872f775618fce52c47716856876684df6908710f6098c38337e2a22c100"
     ),
   ]
 )
